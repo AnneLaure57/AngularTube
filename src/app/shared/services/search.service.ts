@@ -12,7 +12,7 @@ export class SearchService {
 
   // ENV VAR
   private API_URL = 'https://www.googleapis.com/youtube/v3/search';
-  private API_TOKEN = 'AIzaSyAcfyd9zGXgjhRa5Uov1xywVYWIjDOdewg';
+  private API_TOKEN = '';
 
   constructor(private http: HttpClient) { }
 
